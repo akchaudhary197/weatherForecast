@@ -14,6 +14,7 @@
     "body-parser": "^1.19.0",
     "email-validator": "^2.0.4",
     "express": "^4.17.1",
+    "is-valid-coordinates": "^1.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.6",
     "nodemon": "^2.0.12"

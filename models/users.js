@@ -7,9 +7,8 @@ const userRegister = mongoose.Schema({
     email : {type : String ,
         required : true,
         unique : true,
-     } ,
+     },
     password : {type :String , required : true},
-    role : {type :String },
     name :  {type : String },
     tokens:[{
         token:{type :String , required : true}

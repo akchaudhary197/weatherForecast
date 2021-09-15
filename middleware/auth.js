@@ -4,7 +4,6 @@ const auth = async (req, res, next) => {
     try{
         // const token = req.cookies.jwt;
         const token = req.headers.authorization
-        console.log("token",token)
         const verifyUser = jwt.verify(token,"mynameisAnkitandthisisdummyproject")
         const userData = await User.findOne({_id:verifyUser._id})
         if(verifyUser){
