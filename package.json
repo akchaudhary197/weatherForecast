@@ -1,8 +1,8 @@
 {
-  "name": "express-demo",
+  "name": "weather_forecast",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
-    "email-validator": "^2.0.4",
     "express": "^4.17.1",
-    "is-valid-coordinates": "^1.0.0",
-    "jsonwebtoken": "^8.5.1",
+    "express-rate-limit": "^5.5.0",
     "mongoose": "^5.13.6",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "request": "^2.88.2"
   }
 }
