@@ -8,9 +8,11 @@ app.use(express.json())
 
 
 const mongoose = require('mongoose'); 
-mongoose.connect("mongodb+srv://dummy:Ankit@123@cluster0.85bmm.mongodb.net/dummy?retryWrites=true&w=majority",{
+mongoose.connect("mongodb://akchaudhary197:Ankit123@ac-f7atdfo-shard-00-00.oirkhou.mongodb.net:27017,ac-f7atdfo-shard-00-01.oirkhou.mongodb.net:27017,ac-f7atdfo-shard-00-02.oirkhou.mongodb.net:27017/Node-API?ssl=true&replicaSet=atlas-dk3454-shard-0&authSource=admin&retryWrites=true&w=majority"
+ ,{
     useNewUrlParser:true
 })
+
 
 
 
